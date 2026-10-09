@@ -1,0 +1,1 @@
+Original vector artwork is included in assets/. Keep the folder structure intact. Main temple backdrop is local and does not require an external image URL.

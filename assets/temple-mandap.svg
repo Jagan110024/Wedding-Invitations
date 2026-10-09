@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1200" preserveAspectRatio="xMidYMid slice">
+<defs>
+ <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#20110e"/><stop offset=".48" stop-color="#4a2119"/><stop offset="1" stop-color="#160c09"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#e7ad51" stop-opacity=".75"/><stop offset="1" stop-color="#b65b25" stop-opacity="0"/></radialGradient>
+ <linearGradient id="gold" x2="0" y2="1"><stop stop-color="#f5d68b"/><stop offset=".45" stop-color="#c18a3c"/><stop offset="1" stop-color="#75401e"/></linearGradient>
+ <linearGradient id="pillar" x2="1"><stop stop-color="#4a2115"/><stop offset=".3" stop-color="#b8793a"/><stop offset=".55" stop-color="#e0b568"/><stop offset=".8" stop-color="#874b26"/><stop offset="1" stop-color="#321710"/></linearGradient>
+ <linearGradient id="silk" x2="1"><stop stop-color="#521323"/><stop offset=".5" stop-color="#8c2638"/><stop offset="1" stop-color="#3b101a"/></linearGradient>
+ <pattern id="carve" width="38" height="52" patternUnits="userSpaceOnUse"><path d="M19 4 C3 14 4 28 19 38 C34 28 35 14 19 4Z M19 12V34 M8 23H30" fill="none" stroke="#e3b96b" stroke-width="1.6" opacity=".58"/><circle cx="19" cy="24" r="4" fill="none" stroke="#f1d18a" opacity=".6"/></pattern>
+ <g id="lamp"><ellipse cx="0" cy="0" rx="37" ry="7" fill="#b77931"/><path d="M-31 -3 Q0 13 31 -3 L20 -12 H-20Z" fill="url(#gold)" stroke="#f0cb78" stroke-width="2"/><path d="M-12 -13 Q-7 -24 0 -29 Q7 -24 12 -13Z" fill="#ffce64"/><path d="M0 -17 C-12 -29 0 -43 2 -49 C13 -33 10 -24 0 -17Z" fill="#ffed9b"/><rect x="-5" y="-98" width="10" height="80" rx="3" fill="url(#gold)"/><path d="M-5 -77 Q-29 -66 -14 -51 Q0 -45 5 -59 M5 -77 Q29 -66 14 -51 Q0 -45 -5 -59" fill="none" stroke="#d5a14d" stroke-width="5"/><path d="M-5 -88 Q-21 -99 -14 -111 Q-2 -111 0 -96 Q3 -111 14 -111 Q21 -99 5 -88" fill="#e8bd68" stroke="#8d5528" stroke-width="2"/><circle cx="0" cy="-90" r="5" fill="#ffeaa2"/></g>
+ <g id="leaf"><path d="M0 0 Q-34 -40 -13 -80 Q12 -48 0 0Z" fill="#315b32" stroke="#78934b" stroke-width="2"/><path d="M0 0L-12 -70" stroke="#b5bc70" stroke-width="2" fill="none"/></g>
+ <g id="flower"><circle r="9" fill="#a52931"/><g fill="#e6a53f" stroke="#f4ce73" stroke-width="1"><ellipse cy="-15" rx="7" ry="13"/><ellipse cy="-15" rx="7" ry="13" transform="rotate(45)"/><ellipse cy="-15" rx="7" ry="13" transform="rotate(90)"/><ellipse cy="-15" rx="7" ry="13" transform="rotate(135)"/><ellipse cy="-15" rx="7" ry="13" transform="rotate(180)"/><ellipse cy="-15" rx="7" ry="13" transform="rotate(225)"/><ellipse cy="-15" rx="7" ry="13" transform="rotate(270)"/><ellipse cy="-15" rx="7" ry="13" transform="rotate(315)"/></g><circle r="5" fill="#6f231b"/></g>
+</defs>
+<rect width="1800" height="1200" fill="url(#bg)"/>
+<ellipse cx="900" cy="450" rx="700" ry="600" fill="url(#glow)"/>
+<!-- distant carved temple wall -->
+<path d="M0 180H1800V900H0Z" fill="#2c1510" opacity=".85"/>
+<g opacity=".65" fill="none" stroke="#a86f39" stroke-width="4">
+ <path d="M80 245H1720M80 280H1720M80 820H1720M80 855H1720"/>
+ <path d="M100 245V855M1700 245V855M130 280V820M1670 280V820"/>
+</g>
+<!-- gopuram silhouette in rear -->
+<g transform="translate(900 210)" opacity=".5" fill="#7b4024" stroke="#d2a15c" stroke-width="4">
+ <path d="M-170 410L-130 350L-100 350L-70 285L-42 285L-20 220L0 125L20 220L42 285L70 285L100 350L130 350L170 410Z"/>
+ <path d="M-145 410V520H145V410Z" fill="#5b2b1b"/>
+ <path d="M-105 410V520M-55 410V520M0 410V520M55 410V520M105 410V520" fill="none"/>
+ <path d="M-130 350H130M-100 285H100M-68 220H68M-20 160H20" fill="none"/>
+</g>
+<!-- silk backdrop panels -->
+<path d="M0 0H270L310 1200H0Z" fill="url(#silk)" opacity=".92"/>
+<path d="M1530 0H1800V1200H1490Z" fill="url(#silk)" opacity=".92"/>
+<g stroke="#d3a65b" stroke-width="5" fill="none" opacity=".8"><path d="M36 0V1200M85 0V1200M1715 0V1200M1764 0V1200"/><path d="M20 150Q150 225 280 150M1520 150Q1650 225 1780 150"/></g>
+<!-- carved temple columns -->
+<g>
+ <g transform="translate(75 0)"><path d="M0 190L-28 160H180L152 190V1040H0Z" fill="url(#pillar)" stroke="#d4a35b" stroke-width="5"/><path d="M-35 160H187V195H-35ZM-18 1020H170V1060H-18Z" fill="url(#gold)" stroke="#74421f" stroke-width="4"/><rect x="14" y="220" width="125" height="770" fill="url(#carve)" opacity=".8"/><path d="M-20 260H170M-20 930H170" stroke="#f1cc79" stroke-width="5"/></g>
+ <g transform="translate(1540 0)"><path d="M0 190L-28 160H180L152 190V1040H0Z" fill="url(#pillar)" stroke="#d4a35b" stroke-width="5"/><path d="M-35 160H187V195H-35ZM-18 1020H170V1060H-18Z" fill="url(#gold)" stroke="#74421f" stroke-width="4"/><rect x="14" y="220" width="125" height="770" fill="url(#carve)" opacity=".8"/><path d="M-20 260H170M-20 930H170" stroke="#f1cc79" stroke-width="5"/></g>
+</g>
+<!-- mango leaf toran -->
+<path d="M220 85Q900 240 1580 85" fill="none" stroke="#8c542a" stroke-width="10"/>
+<g>
+<use href="#leaf" transform="translate(250 95) rotate(-30) scale(.72)"/><use href="#leaf" transform="translate(305 110) rotate(15) scale(.72)"/><use href="#leaf" transform="translate(360 123) rotate(-22) scale(.72)"/><use href="#leaf" transform="translate(415 135) rotate(20) scale(.72)"/><use href="#leaf" transform="translate(470 146) rotate(-18) scale(.72)"/><use href="#leaf" transform="translate(525 155) rotate(18) scale(.72)"/><use href="#leaf" transform="translate(580 164) rotate(-15) scale(.72)"/><use href="#leaf" transform="translate(635 170) rotate(20) scale(.72)"/><use href="#leaf" transform="translate(690 176) rotate(-15) scale(.72)"/><use href="#leaf" transform="translate(745 180) rotate(18) scale(.72)"/><use href="#leaf" transform="translate(800 184) rotate(-12) scale(.72)"/><use href="#leaf" transform="translate(855 185) rotate(18) scale(.72)"/><use href="#leaf" transform="translate(910 185) rotate(-15) scale(.72)"/><use href="#leaf" transform="translate(965 184) rotate(18) scale(.72)"/><use href="#leaf" transform="translate(1020 180) rotate(-12) scale(.72)"/><use href="#leaf" transform="translate(1075 176) rotate(18) scale(.72)"/><use href="#leaf" transform="translate(1130 170) rotate(-15) scale(.72)"/><use href="#leaf" transform="translate(1185 164) rotate(18) scale(.72)"/><use href="#leaf" transform="translate(1240 155) rotate(-15) scale(.72)"/><use href="#leaf" transform="translate(1295 146) rotate(18) scale(.72)"/><use href="#leaf" transform="translate(1350 135) rotate(-20) scale(.72)"/><use href="#leaf" transform="translate(1405 123) rotate(20) scale(.72)"/><use href="#leaf" transform="translate(1460 110) rotate(-18) scale(.72)"/><use href="#leaf" transform="translate(1515 95) rotate(20) scale(.72)"/>
+</g>
+<!-- flower garlands -->
+<g>
+<use href="#flower" transform="translate(285 184.51710589376358) scale(.7)"/><use href="#flower" transform="translate(323 180.91171756535988) scale(.7)"/><use href="#flower" transform="translate(361 177.423179815876) scale(.7)"/><use href="#flower" transform="translate(399 174.0555463308182) scale(.7)"/><use href="#flower" transform="translate(437 170.81332465706998) scale(.7)"/><use href="#flower" transform="translate(475 167.70156785130908) scale(.7)"/><use href="#flower" transform="translate(513 164.72599435970818) scale(.7)"/><use href="#flower" transform="translate(551 161.89314841272295) scale(.7)"/><use href="#flower" transform="translate(589 159.2106204678319) scale(.7)"/><use href="#flower" transform="translate(627 156.68736016244534) scale(.7)"/><use href="#flower" transform="translate(665 154.3341387112137) scale(.7)"/><use href="#flower" transform="translate(703 152.16426755148024) scale(.7)"/><use href="#flower" transform="translate(741 150.1947917669331) scale(.7)"/><use href="#flower" transform="translate(779 148.4486610540943) scale(.7)"/><use href="#flower" transform="translate(817 146.9592488279756) scale(.7)"/><use href="#flower" transform="translate(855 145.7821521217295) scale(.7)"/><use href="#flower" transform="translate(893 145.04798654886326) scale(.7)"/><use href="#flower" transform="translate(931 145.44721359549996) scale(.7)"/><use href="#flower" transform="translate(969 146.48506715573768) scale(.7)"/><use href="#flower" transform="translate(1007 147.867795134636) scale(.7)"/><use href="#flower" transform="translate(1045 149.52401941900504) scale(.7)"/><use href="#flower" transform="translate(1083 151.41429739230185) scale(.7)"/><use href="#flower" transform="translate(1121 153.51257335981725) scale(.7)"/><use href="#flower" transform="translate(1159 155.7999589112013) scale(.7)"/><use href="#flower" transform="translate(1197 158.26194220847566) scale(.7)"/><use href="#flower" transform="translate(1235 160.88691850077194) scale(.7)"/><use href="#flower" transform="translate(1273 163.66533138423372) scale(.7)"/><use href="#flower" transform="translate(1311 166.58913240758372) scale(.7)"/><use href="#flower" transform="translate(1349 169.6514215616239) scale(.7)"/><use href="#flower" transform="translate(1387 172.84619748987933) scale(.7)"/><use href="#flower" transform="translate(1425 176.16817776665079) scale(.7)"/><use href="#flower" transform="translate(1463 179.61266582084374) scale(.7)"/><use href="#flower" transform="translate(1501 183.1754500001362) scale(.7)"/>
+</g>
+<!-- central canopy and arch -->
+<path d="M440 785V430Q440 260 610 260H1190Q1360 260 1360 430V785" fill="none" stroke="#d3a65b" stroke-width="20"/>
+<path d="M465 785V430Q465 285 620 285H1180Q1335 285 1335 430V785" fill="none" stroke="#f1d18a" stroke-width="4"/>
+<path d="M455 430Q900 510 1345 430" fill="none" stroke="#f4d18a" stroke-width="6"/>
+<g>
+<use href="#flower" transform="translate(490 420) scale(.8)"/><use href="#flower" transform="translate(530 430) scale(.8)"/><use href="#flower" transform="translate(570 438) scale(.8)"/><use href="#flower" transform="translate(610 445) scale(.8)"/><use href="#flower" transform="translate(650 451) scale(.8)"/><use href="#flower" transform="translate(690 456) scale(.8)"/><use href="#flower" transform="translate(730 460) scale(.8)"/><use href="#flower" transform="translate(770 463) scale(.8)"/><use href="#flower" transform="translate(810 465) scale(.8)"/><use href="#flower" transform="translate(850 466) scale(.8)"/><use href="#flower" transform="translate(890 466) scale(.8)"/><use href="#flower" transform="translate(930 466) scale(.8)"/><use href="#flower" transform="translate(970 465) scale(.8)"/><use href="#flower" transform="translate(1010 463) scale(.8)"/><use href="#flower" transform="translate(1050 460) scale(.8)"/><use href="#flower" transform="translate(1090 456) scale(.8)"/><use href="#flower" transform="translate(1130 451) scale(.8)"/><use href="#flower" transform="translate(1170 445) scale(.8)"/><use href="#flower" transform="translate(1210 438) scale(.8)"/><use href="#flower" transform="translate(1250 430) scale(.8)"/><use href="#flower" transform="translate(1290 420) scale(.8)"/>
+</g>
+<!-- banana plants at mandap edges -->
+<g transform="translate(370 650)">
+ <path d="M0 470Q20 180 0 20" stroke="#6b823e" stroke-width="20" fill="none"/>
+ <use href="#leaf" transform="translate(0 120) rotate(-72) scale(2.2)"/><use href="#leaf" transform="translate(0 105) rotate(-38) scale(2.1)"/><use href="#leaf" transform="translate(0 80) rotate(8) scale(2.2)"/><use href="#leaf" transform="translate(0 120) rotate(55) scale(2.1)"/><use href="#leaf" transform="translate(0 150) rotate(85) scale(1.8)"/>
+ <path d="M-15 470H55L40 500H-25Z" fill="#a66a2f"/>
+</g>
+<g transform="translate(1430 650) scale(-1 1)">
+ <path d="M0 470Q20 180 0 20" stroke="#6b823e" stroke-width="20" fill="none"/>
+ <use href="#leaf" transform="translate(0 120) rotate(-72) scale(2.2)"/><use href="#leaf" transform="translate(0 105) rotate(-38) scale(2.1)"/><use href="#leaf" transform="translate(0 80) rotate(8) scale(2.2)"/><use href="#leaf" transform="translate(0 120) rotate(55) scale(2.1)"/><use href="#leaf" transform="translate(0 150) rotate(85) scale(1.8)"/>
+ <path d="M-15 470H55L40 500H-25Z" fill="#a66a2f"/>
+</g>
+<!-- floor and kolam -->
+<path d="M0 950Q900 850 1800 950V1200H0Z" fill="#28140f"/>
+<path d="M0 1030Q900 930 1800 1030" fill="none" stroke="#9a673b" stroke-width="5"/>
+<g transform="translate(900 1085)" fill="none" stroke="#e7cb8a" stroke-width="3" opacity=".8">
+ <circle r="72"/><circle r="52"/><circle r="30"/><path d="M0 -100Q30 -50 0 0Q-30 50 0 100M-100 0Q-50 -30 0 0Q50 30 100 0M-70 -70Q0 -45 70 -70Q45 0 70 70Q0 45 -70 70Q-45 0 -70 -70Z"/>
+ <path d="M0 -125Q12 -95 0 -80Q-12 -95 0 -125ZM125 0Q95 12 80 0Q95 -12 125 0ZM0 125Q-12 95 0 80Q12 95 0 125ZM-125 0Q-95 -12 -80 0Q-95 12 -125 0Z"/>
+</g>
+<!-- brass lamps foreground -->
+<use href="#lamp" transform="translate(315 1040) scale(1.55)"/>
+<use href="#lamp" transform="translate(1485 1040) scale(1.55)"/>
+<!-- floating diya glow -->
+<ellipse cx="315" cy="880" rx="150" ry="220" fill="url(#glow)" opacity=".4"/>
+<ellipse cx="1485" cy="880" rx="150" ry="220" fill="url(#glow)" opacity=".4"/>
+<!-- vignette -->
+<rect width="1800" height="1200" fill="none" stroke="#100806" stroke-width="120" opacity=".5"/>
+</svg>
